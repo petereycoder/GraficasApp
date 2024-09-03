@@ -21,7 +21,7 @@ export class DonaHttpComponent implements OnInit {
 
   ngOnInit(): void {
 
-    /*
+
     this.graficasServices.getUsuariosRedesSociales()
       .subscribe( datas => {
         console.log(datas);
@@ -30,20 +30,20 @@ export class DonaHttpComponent implements OnInit {
           datasets: [{ data:Object.values(datas)}]
         };
       });
-      */
-     
+
+     /*
     this.graficasServices
       .getUsuariosRedesSocialesDonaData()
       .subscribe(({ labels, datasets }) => {
-        // console.log(data);
+         console.log(data);
         this.doughnutChartData = { labels, datasets };
-    });
+    }); */
 
   }
 
-  
 
-  
+
+
 
 
 }
